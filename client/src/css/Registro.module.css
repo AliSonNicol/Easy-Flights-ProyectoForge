@@ -1,0 +1,126 @@
+.registro {
+    position: relative;
+    height: 160vh;
+    background-image: url('../assets/fondoRegistro.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro > button {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #319fcb;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 0 20px 40px #00000026;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.registro > button:hover {
+    background-color: #ffffff;
+    color: #20252a;
+    border-radius: 50px;
+}
+.registro > div {
+    width: 35rem;
+    height: 30rem;
+    position: absolute;
+    top: 15rem;
+    left: 45rem;
+}
+.registro > div > p {
+    margin: 1rem 0 0 8rem;
+    text-align: start;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 1rem #000000;
+}
+.registro > form {
+    position: absolute;
+    top: 8rem;
+    left: 14rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-top: 1.5rem solid #319fcb;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20px 40px #00000026;
+}
+.registro > form > h1 {
+    margin: 0 0 2rem 0;
+    font-size: 2.3rem;
+}
+.registro > form > div {
+    text-align: start;
+}
+.nombres {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.nombres > div {
+    width: 45%;
+}
+.cuenta {
+    width: 90%;
+}
+.cuenta > input, .nombres > div > input {
+    width: 100%;
+    height: 2.5rem;
+    margin: 0.8rem 0;
+    font-size: 1rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    border: none;
+    border: 0.2rem solid #319fcb;
+    border-radius: 0.5rem;
+    transition: 0.4s ease;
+    outline: none;
+}
+.cuenta > input:hover, .nombres > div > input:hover {
+    border-color: #313364;
+}
+.cuenta > label, .nombres > div > label {
+    font-size: 1rem;
+}
+.registro > form > button {
+    width: 90%;
+    height: 3rem;
+    margin: 1rem 0;
+    background-color: #319fcb;
+    font-size: 1.3rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.7rem;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.registro > form > button:hover {
+    background-color: #313364;
+    color: #ffffff;
+    border-radius: 50px;
+}
+.iniciar {
+    display: flex;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+.iniciar > p {
+    margin: 0;
+}
+.iniciar > a {
+    margin: 0 0.5rem;
+    color: #319fcb;
+    font-weight: bold;
+}
